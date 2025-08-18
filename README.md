@@ -1,5 +1,5 @@
 # HCLGT-DRP
-Source code for "HCLGT-DRP: Hypergraph contrastive learning and graph transformer for drug response prediction"
+Source code for "HCLGT-DRP: Hypergraph contrastive learning and graph transformer for drug response prediction".
 # Requirements
 Python == 3.8  
 Pytorch == 2.4.0+cuda11.8  
