@@ -4,7 +4,7 @@ import argparse
 def get_config():
     p = argparse.ArgumentParser(description="HCLGT-DRP (Reproduction, Minimal Working Example)")
     p.add_argument("--device", type=str, default="cuda:0")
-    p.add_argument("--data_root", type=str, default="../processed_data", help="Path to your data folder; if None, use synthetic data")
+    p.add_argument("--data_root", type=str, default="../data", help="Path to your data folder; if None, use synthetic data")
     p.add_argument("--seed", type=int, default=2024)
     p.add_argument("--epochs", type=int, default=3000)
     p.add_argument("--batch_size", type=int, default=512)
